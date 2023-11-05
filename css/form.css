@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #749BC2;
+}
+
+.container{
+    width: 80%; 
+    height: 80vh;
+    display: flex;
+    box-shadow: 10px 15px 20px rgba(5, 0, 0, 0.25);
+}
+
+.form-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F4EB;
+    padding: 1rem;
+}
+
+.form-img img{
+    width: 80%;
+    height: 60vh;
+    box-shadow: 20px 20px 15px;
+}
+
+
+
+.form-box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background: #91C8E4;
+}
+
+.form-header{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: left;
+}
+
+.form-header h1:after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.2em;
+    background:#4682A9;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.form-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-wraper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-wraper input{
+    cursor: pointer;
+    margin: 0.4rem 0;
+    padding: 0.6rem 1.1rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-wraper input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-wraper input:focus-visible{
+    outline: 1px solid #4682A9;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.btn input[type=submit]{
+    padding: .3rem 1.5rem ;
+    background-color: #F6F4EB;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn input[type=submit]:hover{
+    background-color: #91C8E4;
+}
